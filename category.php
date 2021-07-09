@@ -1,7 +1,7 @@
 <?php 
     require __DIR__ . '/product.php';
-    
-    class categorie {
+
+    class category {
         public $categoria;
 
         function __construct($categoria){
