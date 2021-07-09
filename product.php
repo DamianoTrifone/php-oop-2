@@ -1,6 +1,7 @@
 <?php   
+    include_once __DIR__ . '/User.php';
 // ATTRIBUTI
-    class product {
+    class Product {
         public $nome;
         public $marca;
         public $categoria;
@@ -16,6 +17,7 @@
         $this->prezzo = $prezzo;
         $this->giacenza = $giacenza;
         $this->descrizione = $descrizione;
+
     }
     }
 ; ?>

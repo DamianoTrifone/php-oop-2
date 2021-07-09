@@ -1,5 +1,5 @@
 <?php 
-    require __DIR__ . '/product.php';
+    require __DIR__ . '/Product.php';
 
     class category {
         public $categoria;

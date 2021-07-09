@@ -9,10 +9,10 @@ Aggiungete una pagina (vista) in cui creare istanze delle classi create e mostra
 
 
 <?php 
-    include_once __DIR__ . '/category.php';
-    require_once __DIR__ . '/product.php';
-    require_once __DIR__ . '/user.php';
+    include_once __DIR__ . '/Category.php';
+    require_once __DIR__ . '/Product.php';
+    require_once __DIR__ . '/User.php';
 
-    $prodotto = new product("Airpods", "Apple", "Elettronica", 150, 15, "Cuffie bluetooth");
-    var_dump($prodotto);
+    $Prodotto = new Product("Airpods", "Apple", "Elettronica", 150, 15, "Cuffie bluetooth");
+    var_dump($Prodotto);
 ; ?>
