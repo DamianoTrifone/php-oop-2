@@ -19,5 +19,9 @@
         $this->descrizione = $descrizione;
 
     }
-    }
+    public function prezzoFinale() {
+        $this->prezzoFinale(); 
+        $prezzoFinale = $this->prezzo - ($this->prezzo * ($this->sconto / 100)); 
+        return $prezzoFinale; 
+    }};
 ; ?>

@@ -14,5 +14,12 @@ Aggiungete una pagina (vista) in cui creare istanze delle classi create e mostra
     require_once __DIR__ . '/User.php';
 
     $Prodotto = new Product("Airpods", "Apple", "Elettronica", 150, 15, "Cuffie bluetooth");
-    var_dump($Prodotto);
+    // var_dump($Prodotto);
 ; ?>
+
+<h2>Nome: <?= $Prodotto->nome ?></h2>
+<h2>Marca: <?= $Prodotto->marca ?></h2>
+<h2>Categoria: <?= $Prodotto->categoria ?></h2>
+<h2>Prezzo: <?= $Prodotto->prezzo ?></h2>
+<h2>Giacenza: <?= $Prodotto->giacenza ?></h2>
+<p>Descrizione: <?= $Prodotto->descrizione ?></p>
